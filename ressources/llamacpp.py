@@ -229,6 +229,7 @@ model_list_llamacpp_builtin = {
     "bartowski/OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF":("OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-Q5_K_M.gguf", "<|role|>system<|says|>{system_prompt}<|end|>\n<|role|>user<|says|>{prompt}<|end|>\n<|role|>assistant<|says|>", std_system_prompt),
     "OpenBuddy/SimpleChat-72B-V3-QAT-GGUF":("ggml-model-Q2_K.gguf", prompt_template_list_llamacpp["Qwen 3"][0], std_system_prompt),
     "bartowski/Qwen3.8-27B-GGUF":("Qwen3.8-27B-Q5_K_M.gguf", prompt_template_list_llamacpp["Qwen 3.8"][0], std_system_prompt),
+    "bartowski/thomsonreuters_Thomson-1.0-Small-GGUF":("thomsonreuters_Thomson-1.0-Small-Q5_K_M.gguf", prompt_template_list_llamacpp["Qwen 3.5"][0], std_system_prompt),
     "bartowski/Qwen_Qwen3.6-35B-A3B-GGUF":("Qwen_Qwen3.6-35B-A3B-Q5_K_M.gguf", prompt_template_list_llamacpp["Qwen 3.5"][0], std_system_prompt),
     "bartowski/allura-org_Qwen3.6-35B-A3B-Anko-GGUF":("allura-org_Qwen3.6-35B-A3B-Anko-Q5_K_M.gguf", prompt_template_list_llamacpp["Qwen 3.5"][0], "You are Claude, a helpful and harmless language model created by Anthropic."),
     "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF":("Qwopus3.6-27B-v2-MTP-Q5_K_M.gguf", prompt_template_list_llamacpp["Qwen 3.5"][0], std_system_prompt),
